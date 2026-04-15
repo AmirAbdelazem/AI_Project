@@ -6,9 +6,9 @@ A Sherlock Holmes-themed next-word predictor built using N-gram Maximum Likeliho
 - Python 3.10+
 - Dependencies: `pip install -r requirements.txt`
 
-## SetupFA
-1. Clone the repository.SAF
-2. Create `config/.env` using the provided template.AFS
+## Setup
+1. Clone the repository.
+2. Create `config/.env` using the provided template.
 3. Place training books (.txt) in `data/raw/train/`.
 
 ## Usage
