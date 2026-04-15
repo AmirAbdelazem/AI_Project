@@ -44,10 +44,10 @@ class NGramModel:
         return {}
 
     def save_model(self, path):
-         os.makedirs(os.path.dirname(path), exist_ok=True)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, 'w', encoding='utf-8') as f: json.dump(self.model, f)
     def save_vocab(self, path):
-         os.makedirs(os.path.dirname(path), exist_ok=True)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, 'w', encoding='utf-8') as f: json.dump(list(self.vocab), f)
     def load(self, model_path, vocab_path):
         with open(model_path, 'r', encoding='utf-8') as f: self.model = json.load(f)
