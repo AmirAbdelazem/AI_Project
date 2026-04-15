@@ -8,7 +8,7 @@ A Sherlock Holmes-themed next-word predictor built using N-gram Maximum Likeliho
 
 ## SetupFA
 1. Clone the repository.
-2. Create `config/.env` using the provided template.
+2. Create `config/.env` using the provided template.AFS
 3. Place training books (.txt) in `data/raw/train/`.
 
 ## Usage
