@@ -1,0 +1,29 @@
+# --- Project Specific Data ---
+# Ignore all raw and processed data folders
+data/
+
+# Ignore model artifacts and vocabulary files
+*.json
+
+# --- Python Environment & Cache ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# --- Local Configuration ---
+# Ignore environment variables (sensitive info)
+.env
+config/.env
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
