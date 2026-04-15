@@ -14,4 +14,4 @@ A Sherlock Holmes-themed next-word predictor built using N-gram Maximum Likeliho
 ## Usage
 Run the full pipeline:
 ```bash
-python main.py --step alL
+python main.py --step all
